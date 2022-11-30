@@ -1,0 +1,13 @@
++#DEFINE PIN_LED 13
+
+void setup (){
++pinMode(PIN_LED, OUTPUT);
+}
+
+void loop (){
++digitalWrite(PIN_LED, HIGH);
++delaY(1000)
+++pinMode(PIN_LED, LOW);
+delay(1000)
+}
+
